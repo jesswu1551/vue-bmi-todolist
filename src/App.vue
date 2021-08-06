@@ -4,9 +4,7 @@
       <v-avatar class="mr-10">
         <img src="@/assets/logo.svg">
       </v-avatar>
-      <v-tabs
-        class="ml-n9"
-      >
+      <v-tabs>
         <v-tab to="/">Home</v-tab>
         <v-tab to="/bmi">BMI Calculator</v-tab>
         <v-tab to="/todo">Todo List</v-tab>
