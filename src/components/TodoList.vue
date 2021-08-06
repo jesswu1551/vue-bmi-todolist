@@ -1,7 +1,6 @@
 <template>
   <v-container>
     <div class="text-center">
-      <div class="headline font-weight-black">To-do list</div>
       <div class="overline">{{ today }}</div>
     </div>
     <v-text-field

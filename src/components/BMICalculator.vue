@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container class="mb-10">
-      <v-row class="align-center">
+      <v-row class="align-center text-center">
         <v-col>
           <v-text-field
             label="Weight"
@@ -43,7 +43,7 @@
             <th class="text-center">Date</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody class="text-center">
           <tr
           v-for="item in records"
           :key="item.id"
